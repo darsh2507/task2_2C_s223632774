@@ -76,8 +76,8 @@ public class SeleniumOperations {
 		
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        
-       Files.copy(screenshotFile, new File("D:\\Software Testing\\picture\\officeRelative.jpg"));
+        // Step 4: Save the screenshot
+       Files.copy(screenshotFile, new File("D:\\Software Testing\\picture\\officeRelativenew.jpg"));
 
 		
 		// Sleep a while
